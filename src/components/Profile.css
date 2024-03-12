@@ -1,0 +1,77 @@
+.ProfileButton a{
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.4em 1em;
+    border: 3px solid black;
+    border-radius: 2px;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+    color: black;
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 1;
+  }
+  .ProfileButton a{
+    text-decoration: none;
+    color: black;
+  }
+  .ProfileButton a:hover{
+    color: rgb(255, 255, 255);
+  }
+  
+  .ProfileButton a:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-color: black;
+    z-index: -1;
+  }
+  
+  .ProfileButton a:hover, .ProfileButton a:focus {
+    color: white;
+  }
+  
+  .ProfileButton a:hover:before, .ProfileButton a:focus:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+  }
+  
+  .ProfileButton a:active {
+    transform: scale(0.9);
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+  
+  @keyframes blink-caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+  /* When you change the amount of characters in the h1, you have to change 
+  the with: 14ch and  steps(14, end), if there is 14 characters, put 14, 
+  if there is 20 put 20 */
+  .animation {
+    font: bold 200% Consolas, Monaco, monospace;
+    border-right: .1em solid black;
+    width: 13.20ch;
+    margin: .5em .8em;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: typing 5s steps(13, end),
+                 blink-caret .5s step-end infinite alternate;
+  }
