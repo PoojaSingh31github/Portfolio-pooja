@@ -60,3 +60,63 @@
   .Project__card__links .Project__link:hover {
     text-decoration: underline;
   }
+
+  /* project_button */
+  /* .button {
+    background-color: #292929;
+    border: 1px solid #f0e6e6;
+    border-radius: 8px;
+    color: #f8f1f1;
+    padding: 10px 6px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 12px 14px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    border: 1px solid #f56d13;
+  } */
+
+  /* second one  */
+  .button {
+    --color: black;
+    font-family: inherit;
+    display: inline-block;
+    width: 6em;
+    height: 2.6em;
+    line-height: 2.5em;
+    overflow: hidden;
+    margin: 20px;
+    font-size: 17px;
+    z-index: 1;
+    color: var(--color);
+    border: 2px solid var(--color);
+    border-radius: 6px;
+    position: relative;
+  }
+  
+  .button::before {
+    position: absolute;
+    content: "";
+    background: var(--color);
+    width: 150px;
+    height: 200px;
+    z-index: -1;
+    border-radius: 50%;
+  }
+  
+  .button:hover {
+    color: white;
+  }
+  
+  .button:before {
+    top: 100%;
+    left: 100%;
+    transition: .3s all;
+  }
+  
+  .button:hover::before {
+    top: -30px;
+    left: -30px;
+  }

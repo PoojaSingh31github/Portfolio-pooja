@@ -1,9 +1,9 @@
 import React from 'react';
 import arrow from '../assets/arrow.png';
-import AboutPic from '../assets/img2.jpeg';
 import Project1 from '../assets/Project 1.jpeg';
 import Project2 from '../assets/Project 2.jpeg';
 import Project3 from '../assets/Project 3.jpeg';
+import be1 from '../assets/be1.jpeg';
 import './project.css';
 
 const Project = () => {
@@ -12,13 +12,13 @@ const Project = () => {
       <p className="section__text__p1">Browse My Recent</p>
       <h1 className="title">Projects</h1>
 
-     
+
       <div className="experience-details-container projects">
         <div className="animation">Frontend... </div>
         <div className="about-containers">
           <div class="details-container color-container">
-             <div class="article-container">
-               <img
+            <div class="article-container">
+              <img
                 src={Project3}
                 alt="Project 1"
                 class="project-img"
@@ -28,15 +28,11 @@ const Project = () => {
             <p>Food ordering website UI </p>
             <div class="btn-container">
               <a href='https://github.com/PoojaSingh31github/bootstrap-project' target='_blank'>
-                <button class="btn btn-color-2 project-btn">
-                  Github
-                </button> </a>
+                <button class="button">Git Hub</button></a>
               <a href='https://bootstrap-poojasingh-a21215.netlify.app/' target='_blank'>
-                <button class="btn btn-color-2 project-btn">
-                  Live Demo
-                </button> </a>
+                <button class="button">Preveiw</button> </a>
             </div>
-        </div>
+          </div>
 
           <div class="details-container color-container">
             <div class="article-container">
@@ -50,13 +46,9 @@ const Project = () => {
             <p>Javascript calculator </p>
             <div class="btn-container">
               <a href='https://github.com/PoojaSingh31github/javascript-assignment-poo' target='_blank'>
-                <button class="btn btn-color-2 project-btn">
-                  Github
-                </button> </a>
+                <button class="button">Git Hub</button> </a>
               <a href='https://calculator-poojasingh-e8566d.netlify.app/' target='_blank'>
-                <button class="btn btn-color-2 project-btn">
-                  Live Demo
-                </button> </a>
+                <button class="button">Preveiw</button>  </a>
             </div>
           </div>
 
@@ -72,13 +64,9 @@ const Project = () => {
             <p>UI ecommerce project </p>
             <div class="btn-container">
               <a href='https://github.com/PoojaSingh31github/shoping-project' target='_blank'>
-                <button class="btn btn-color-2 project-btn">
-                  Github
-                </button> </a>
+                <button class="button">Git Hub</button> </a>
               <a href='https://shopping-ecommerce-pooja.netlify.app/' target='_blank'>
-                <button class="btn btn-color-2 project-btn">
-                  Live Demo
-                </button> </a>
+                <button class="button">Preveiw</button>  </a>
             </div>
           </div>
         </div>
@@ -91,7 +79,7 @@ const Project = () => {
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-1.png"
+                src={be1}
                 alt="Project 1"
                 class="project-img"
               />
@@ -100,9 +88,9 @@ const Project = () => {
             <p>MERN ecommerce project </p>
             <div class="btn-container">
               <a href='https://github.com/PoojaSingh31github/ecom-project' target='_blank'>
-                <button class="btn btn-color-2 project-btn">
-                  Github
-                </button> </a>
+                <button class="button">Git Hub</button> </a>
+              <a href='https://ep-froneend.vercel.app/' target='_blank'>
+                <button class="button">Preveiw</button> </a>
             </div>
           </div>
           <div class="details-container color-container">
@@ -118,9 +106,9 @@ const Project = () => {
 
             <div class="btn-container">
               <a href='https://github.com/PoojaSingh31github/TwitterClone--by-Pooja' target='_blank'>
-                <button class="btn btn-color-2 project-btn">
-                  Github
-                </button> </a>
+                <button class="button">Git Hub</button></a>
+              <a href='https://ep-froneend.vercel.app/' target='_blank'>
+                <button class="button">Preveiw</button> </a>
             </div>
           </div>
           <div class="details-container color-container">
@@ -136,9 +124,9 @@ const Project = () => {
 
             <div class="btn-container">
               <a href='https://github.com/PoojaSingh31github/reactogram-' target='_blank'>
-                <button class="btn btn-color-2 project-btn">
-                  Github
-                </button> </a>
+                <button class="button">Git Hub</button> </a>
+              <a href='https://ep-froneend.vercel.app/' target='_blank'>
+                <button class="button">Preveiw</button> </a>
             </div>
           </div>
         </div>
